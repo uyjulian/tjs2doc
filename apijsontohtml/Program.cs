@@ -23,7 +23,7 @@ namespace apijsontohtml {
 
 				ScriptNode root = new ScriptNode();
 				Regex regex = new Regex( regptn );
-				foreach( string s in Directory.GetFiles( ".\\" ) ) {
+				foreach( string s in Directory.GetFiles( "." ) ) {
 					if( regex.IsMatch( s ) ) {
 						Stream stream = null;
 						try {

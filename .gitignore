@@ -1,0 +1,5 @@
+*.exe
+*.exe.config
+*.dll
+*.pdb
+obj
